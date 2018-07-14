@@ -1,0 +1,23 @@
+template <class thing>
+
+thing max(thing a, thing b)
+{
+    return (a>b? a:b);//if a > b, a is returned, else b is returned
+}
+
+template <class thing>
+
+thing min(thing a, thing b)
+{
+    return (a < b ?a:b); //if a < b, a is returned, else b is returned
+}
+
+template <class thing>
+
+thing print (thing a, thing b)
+{
+    std::cout << a << std::endl << b << std::endl;
+}
+
+//template only applies to the class or function that immediately follows immediately
+//template must be re-declared for any following classes/functions
